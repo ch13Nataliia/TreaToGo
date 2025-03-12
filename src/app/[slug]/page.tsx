@@ -1,11 +1,12 @@
 import React from 'react';
 import ProductImages from '../components/ProductImages';
+import CustomizeProducts from '../components/CustomizeProducts';
 
 const SinglePage = () => {
   return (
     <div className="px-4 md:px-8 lg:px-16 xl:px-26 2xl:px-64 relative flex flex-col lg:flex-row gap-16">
       {/* IMAGE */}
-      <div className="w-1/2 lg:w-1/2 lg:sticky top-20 h-max">
+      <div className="w-full lg:w-1/2 lg:sticky top-20 h-max">
         <ProductImages />
       </div>
       {/* CONTENT */}
@@ -21,6 +22,7 @@ const SinglePage = () => {
           <span className="font-medium text-2xl">£49</span>
         </div>
         <div className="h-[2px] bg-gray-100" />
+        <CustomizeProducts />
       </div>
     </div>
   );
