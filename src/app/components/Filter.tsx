@@ -24,7 +24,7 @@ const Filter = () => {
           placeholder="max price"
           className="text-xs rounded-xl pl-2 w-24 ring-1 ring-gray-400"
         />
-         <select
+        <select
           name="size"
           id=""
           className="py-2 px-4 rounded-xl text-xs font-medium  bg-[#EBEDED]"
