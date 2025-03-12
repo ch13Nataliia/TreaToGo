@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductImages from '../components/ProductImages';
 import CustomizeProducts from '../components/CustomizeProducts';
+import Add from '../components/Add';
 
 const SinglePage = () => {
   return (
@@ -23,6 +24,7 @@ const SinglePage = () => {
         </div>
         <div className="h-[2px] bg-gray-100" />
         <CustomizeProducts />
+        <Add />
       </div>
     </div>
   );

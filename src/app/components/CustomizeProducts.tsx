@@ -23,7 +23,7 @@ const CustomizeProducts = () => {
           Large
         </li>
         <li className="ring-1 ring-pink-300 text-pink-300 rounded-md py-1 px-4 text-sm cursor-pointer">
-          x-large
+          X-large
         </li>
       </ul>
     </div>
